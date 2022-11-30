@@ -48,7 +48,7 @@ async def scheduled(sleep_time):
 
 @dp.message_handler(commands=['get'])
 async def send_welcome(a):
-    await bot.send_message(chat_id=1041061975, text="Привет! Теперь тебе будет приходить курс рубля , когда будут изменения.")
+    await bot.send_message(chat_id=0, text="Привет! Теперь тебе будет приходить курс рубля , когда будут изменения.")
     
         
 
